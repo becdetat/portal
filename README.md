@@ -1,4 +1,6 @@
-# Servs-up portal
+# Porthol
+
+(it's Welsh for Portal)
 
 This uses:
 - ASP.NET Core
@@ -38,13 +40,4 @@ To update after a model change:
 dotnet ef migrations add <name-of-migration>
 dotnet ef database update
 ```
-
-
-
-
-<p class="attribution">"<a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/14681861@N00/9846971334">Purple Star Cluster</a>" by <a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/14681861@N00">Michael Taggart Photography</a> is licensed under <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/2.0/?ref=openverse">CC BY-NC 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img></a>. </p>
-
-
-
-
 

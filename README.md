@@ -7,29 +7,18 @@ This uses:
 - Vue
 - TypeScript
 
-
-This is a devcontainer, so use VS Code to start the Docker container. (See **Environment** for more details.)
-
 Rather than use Vite to serve the frontend, we're using it to build the frontend statically (in a watch loop) and write it to the `wwwroot` folder within the API. The API then serves the frontend statically from the root request path. This keeps things simple - a single server, a consistent production deploy story, and no annoying CSRF issues in development.
 
-
-## Initial setup and getting runnint
-### Environment
-As this is a devcontainer, it needs a Docker container for it to work in development.
-
-1. Install Docker
-2. Install the `Dev Containers` extension in VS Code
-
-To run commands within the container use the terminal in VS Code.
+Eventually this will be released as a Docker container, with a configurable volume for the SQLite database.
 
 
+## Initial setup and getting running
 ### Frontend
 1. `cd frontend`
 2. `npm install`
 3. `npm run build-and-watch`
 
 The `npm run build-and-watch` command enters a watch loop which builds the frontend and writes it to `../backend/wwwroot` (which is served by the API).
-
 
 ### Backend
 1. `cd backend/Api`
